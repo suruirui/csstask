@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css task 01 -3</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			list-style: none;
+			text-decoration: none;
+		}
+		.box{
+			width: 300px;
+			height: 420px;
+			margin:100px auto;
+			border-top:2px solid #206f96;
+		}
+		.title{
+			width: 100%;
+			height: 30px;
+			border-bottom:1px solid #cfcfcf;
+		}
+		.title h2{
+			font-size: 14px;
+			line-height: 30px;
+			font-weight: 500;
+			margin-left: 10px;
+		}
+		.product>li:nth-child(odd){
+			background-color: #fff;
+		}
+		.product>li:nth-child(even){
+			background-color: #f7f7f7!important;
+		}
+		.product a{
+			color:#000;
+			font-size: 12px;
+		}
+		.product>li{
+			width: 100%;
+			padding-right: 0!important;
+		}
+		.product>li:nth-child(1){
+			box-sizing:border-box;
+			height: 58px;
+			padding: 25px 18px;
+			background: url(images/mail.png) no-repeat;
+			background-position: 18px 25px;
+		}
+		.product>li:nth-child(1) ul{
+			margin-left: 32px;
+			line-height: 11px;
+		}
+		.product>li:nth-child(2),.product>li:nth-child(4){
+			background: url(images/mail.png) no-repeat;
+			background-position: 18px 49px;
+			box-sizing:border-box;
+			padding: 18px 18px;
+			height: 126px;
+		}
+		.product>li:nth-child(2) ul,.product>li:nth-child(4) ul{
+			margin-left: 32px;
+			line-height: 20px;
+		}
+		.product>li:nth-child(3){
+			background: url(images/mail.png) no-repeat;
+			background-position: 18px 26px;
+			height: 76px;
+			padding: 18px 18px;
+			box-sizing:border-box;
+		}
+		.product>li:nth-child(3) ul{
+			margin-left: 32px;
+			line-height: 17px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="title">
+			<h2>网易产品</h2>
+		</div>
+		<ul class="product">
+			<li>
+				<ul>
+					<li>
+						<a href="#">免费邮</a>&nbsp;
+						<a href="#">VIP邮箱</a>&nbsp;
+						<a href="#">企业邮箱</a>&nbsp;
+						<a href="#">邮箱大师</a>&nbsp;
+						<a href="#">易信</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#">梦幻西游2</a>&nbsp;
+						<a href="#">新大话2</a>&nbsp;
+						<a href="#">新大话3</a>&nbsp;
+						<a href="#">藏地传奇</a>
+					</li>
+					<li>
+						<a href="#">魔兽世界</a>&nbsp;
+						<a href="#">星际争霸2</a>&nbsp;
+						<a href="#">倩女幽魂2</a>&nbsp;
+						<a href="#">武魂2</a>
+					</li>
+					<li>
+						<a href="#">天下3</a>&nbsp;
+						<a href="#">突击英雄</a>&nbsp;
+						<a href="#">新飞飞</a>&nbsp;
+						<a href="#">大唐无双零</a>&nbsp;
+						<a href="#">天谕</a>
+					</li>
+					<li>
+						<a href="#">英雄三国</a>&nbsp;
+						<a href="#">龙剑</a>&nbsp;
+						<a href="#">乱斗西游</a>&nbsp;
+						<a href="#">炉石传说</a>&nbsp;
+						<a href="#">UU加速</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#">考拉海购</a>&nbsp;
+						<a href="#">LOFTER</a>&nbsp;
+						<a href="#">博客</a>&nbsp;
+						<a href="#">相册</a>&nbsp;
+						<a href="#">花田交友</a>
+					</li>
+					<li>
+						<a href="#">约会</a>&nbsp;
+						<a href="#">女神</a>&nbsp;
+						<a href="#">跟贴</a>&nbsp;
+						<a href="#">抢购</a>&nbsp;
+						<a href="#">CC语音</a>&nbsp;
+						<a href="#">BoBo直播</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#">彩票</a>&nbsp;
+						<a href="#">理财</a>&nbsp;
+						<a href="#">商城</a>&nbsp;
+						<a href="#">贵金属</a>&nbsp;
+						<a href="#">电影票</a>&nbsp;
+						<a href="#">车险</a>
+					</li>
+					<li>
+						<a href="#">有道词典</a>&nbsp;
+						<a href="#">翻译</a>&nbsp;
+						<a href="#">云笔记</a>&nbsp;
+						<a href="#">印象派</a>&nbsp;
+						<a href="#">公开课</a>
+					</li>
+					<li>
+						<a href="#">云课堂</a>&nbsp;
+						<a href="#">读小说</a>&nbsp;
+						<a href="#">云音乐</a>&nbsp;
+						<a href="#">火车票</a>&nbsp;
+						<a href="#">游戏助手</a>
+					</li>
+					<li>
+						<a href="#">公正邮</a>&nbsp;
+						<a href="#">应用</a>&nbsp;
+						<a href="#">杂志</a>&nbsp;
+						<a href="#">新闻客户端</a>&nbsp;
+						<a href="#">大学慕课</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
