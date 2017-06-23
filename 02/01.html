@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css练习</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul li{
+			width: 150px;
+			height: 40px;
+			list-style: none;
+			border: 1px solid #ccc;
+			margin-top: -1px;
+			line-height: 40px;
+			text-align: center;
+			background: url(images/img.png) no-repeat;
+			position: relative;
+		}
+		ul li a{
+			text-decoration: none;
+		}
+		ul li:nth-child(1){
+			background-position:0 -5px;
+		}
+		ul li:nth-child(2){
+			background-position:0 -47px;
+		}
+		ul li:nth-child(3){
+			background-position:0 -89px;
+		}
+		ul li:nth-child(4){
+			background-position:0 -128px;
+		}
+		ul li:nth-child(5){
+			background-position:0 -170px;
+		}
+		ul li:nth-child(6){
+			background-position:0 -209px;
+		}
+		ul li:nth-child(7){
+			background-position:0 -249px;
+		}
+		ul li:nth-child(8){
+			background-position:0 -288px;
+		}
+		ul li:nth-child(9){
+			background-position:0 -326px;
+		}
+		ul li .enter{
+			display: inline-block;
+			width: 9px;
+			height: 9px;
+			background: url(images/sm.png) no-repeat;
+			position: absolute;
+			top:16px;
+			right: 15px;
+		}
+		ul li:hover .enter{
+			right: 8px;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a href="">1111</a><span class="enter"></span></li>
+		<li><a href="">2222</a><span class="enter"></span></li>
+		<li><a href="">3333</a><span class="enter"></span></li>
+		<li><a href="">4444</a><span class="enter"></span></li>
+		<li><a href="">5555</a><span class="enter"></span></li>
+		<li><a href="">6666</a><span class="enter"></span></li>
+		<li><a href="">7777</a><span class="enter"></span></li>
+		<li><a href="">8888</a><span class="enter"></span></li>
+		<li><a href="">9999</a><span class="enter"></span></li>
+	</ul>
+</body>
+</html>

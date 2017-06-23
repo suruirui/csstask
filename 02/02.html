@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>作业2</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			font-size: 12px;
+			font-family: '微软雅黑';
+			text-decoration: none;
+		}
+		section{
+			width: 530px;
+			height: 360px;
+			border:1px solid #E6E6E6;
+			margin: 50px auto;
+			padding: 20px;	
+		}
+		section .selector{
+			width: 100%;
+			height: 75px;
+			border-bottom:1px solid #EEEEEE;
+			position: relative;
+		}
+		.sort{
+			position: absolute;
+			top:5px;
+			left: 0;
+		}
+		.wealth{
+			position: absolute;
+			top:35px;
+			left: 0;
+		}
+		.sort li,.wealth li{
+			display: inline-block;
+			height: 25px;
+			min-width:36px; 
+			line-height: 25px;
+			text-align: center;
+		}
+		.sort li:first-child:hover,.wealth li:first-child:hover{
+			background: none;
+			color: #000;
+			cursor: default;
+		}
+		.sort li:hover,.wealth li:hover{
+			background-color: #48A4F9;
+			color:#fff;
+			cursor: pointer;
+		}
+		.goods{
+			margin-top: 30px;
+		}
+		.goods li{
+			width: 155px;
+			height: 255px;
+			display: inline-block;
+			text-align: center;
+		}
+		.goods li:nth-child(1){
+			margin-right:27px;
+		}
+		.goods li:nth-child(2){
+			margin-right:28px;
+		}
+		.goods li h5{
+			margin-top: 20px;
+		}
+		.goods li p{
+			color: red;
+			margin-top: 6px;
+			margin-bottom: 11px;
+		}
+		section .goods li .title{
+			font-weight: normal;
+			color: #000;
+		}
+		section .goods li .duihuan{
+			display: inline-block;
+			width: 80px;
+			height: 30px;
+			background-color: #0B77CF;
+			color: #fff;
+			line-height: 30px;
+		}
+		
+	</style>
+</head>
+<body>
+<section>
+<div class="selector">
+	<ul class="sort">
+		<li>排序方式:</li>
+		<li>默认</li>|
+		<li>&nbsp;&nbsp;按上架时间&nbsp;&nbsp;</li>|
+		<li>&nbsp;&nbsp;按财富值&nbsp;&nbsp;</li>|
+		<li>&nbsp;&nbsp;按兑换量&nbsp;&nbsp;</li>
+	</ul>
+	<ul class="wealth">
+		<li>按财富值筛选:</li>
+		<li>全部</li>|
+		<li>&nbsp;&nbsp;0-5000&nbsp;&nbsp;</li>|
+		<li>&nbsp;&nbsp;5001-10000&nbsp;&nbsp;</li>|
+		<li>&nbsp;&nbsp;10001-50000&nbsp;&nbsp;</li>|
+		<li>&nbsp;&nbsp;50000以上&nbsp;&nbsp;</li>
+	</ul>
+</div>
+	<ul class="goods">
+		<li>
+			<a href=""><img src="images/01.png"></a>
+			<h5><a href="#" class="title">现代简约收纳书桌</a></h5>
+			<p>999财富值</p>
+			<a href="" class="duihuan">立即兑换</a>
+		</li>
+		<li>
+			<img src="images/02.png">
+			<h5><a href="#" class="title">任务初级评审报名费</a></h5>
+			<p>999财富值</p>
+			<a href="" class="duihuan">立即兑换</a>
+		</li>
+		<li>
+			<img src="images/03.png">
+			<h5><a href="#" class="title">地址兑换</a></h5>
+			<p>0财富值</p>
+			<a href="" class="duihuan">立即兑换</a>
+		</li>
+	</ul>
+</section>
+</body>
+</html>
