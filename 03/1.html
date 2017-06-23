@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>03-01</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				text-decoration: none;
+				list-style: none;
+			}
+			.box{
+				width: 808px;
+				height: 469px;
+				margin: 50px auto;
+				background-color: #f3f3f3;
+				padding: 12px;
+				box-sizing: border-box;
+			}
+			.main{
+				width: 780px;
+				height: 445px;
+				background-color: #FFF;
+				padding-top: 15px;
+				padding-right: 15px;
+				box-sizing: border-box;
+			}
+			.topic{
+				width: 752px;
+				height: 230px;
+				margin-left: 15px;
+			}
+			.topic img{
+				vertical-align: top;
+				float:left;
+			}
+			.content{
+				width: 395px;
+				height: 230px;
+				float: right;
+			}
+			.topic-title a{
+				font-size: 24px;
+				color:#353535;
+			}
+			.topic-title a:hover{
+				color:#35b558;
+			}
+			.topic-text{
+				margin-top: 19px;
+				font-size: 14px;
+				line-height: 21px;
+				color:#8b8b99;
+				height: 61px;
+				margin-bottom: 12px;
+			}
+			.topic-count{
+				color:#8b8b99;
+				font-size: 12px;;
+			}
+			.topic-count i{
+				font-style: normal;
+				color:#fc793d;	
+			}
+			.real{
+				margin-top: 15px;
+			}
+			.real-box{
+				display: inline-block;
+				width: 60px;
+				height: 60px;
+				text-align: center;
+				line-height: 60px;
+				border-radius: 50%;
+				font-size: 28px;
+				color:#fff;
+			}
+			.true{
+				background-color: #35b558;
+			}
+			.flase{
+				background-color: #e66e62;
+				margin-left: 20px;
+			}
+			.get-real{
+				color:#8b8b99;
+				margin-left: 192px;
+			}
+			.get-real:hover{
+				color:#35b558;
+			}
+			.topic-list{
+				margin-left: 15px;
+				margin-top: 23px;
+			}
+			.topic-list li{
+				background: url('images/dot.png') no-repeat;
+				background-position: 0 9px;
+				height: 35px;
+				text-indent: 1em;
+			}
+			.topic-list a{
+				color:#353535;
+				font-size: 18px;
+			}
+			.topic-list a:hover{
+				color:#35b558;
+			}
+			.topic-list li span{
+				font-size: 12px;
+				color:#8b8b99;
+				/*line-height: 35px;*/
+				vertical-align: middle;
+				float: right;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="main">
+				<!--话题-->
+				<div class="topic">
+					<img src="images/topic.jpg" alt="" />
+					<div class="content">
+						<h2 class="topic-title"><a href="#">打鸡血能使人兴奋？</a></h2>
+						<p class="topic-text">&nbsp;&nbsp;“看你兴奋的那样，跟打了鸡血似的”&nbsp;&nbsp;，已经成了人所共知的调侃人兴奋过度的俚语。这个说法有道理吗？打鸡血真的会让人兴奋?</p>
+						<span class="topic-count">255900人参与，<i>23%</i>人都错了</span>
+						<div class="real">
+							<a class="real-box true" href="#">真</a>
+							<a class="real-box flase" href="#">假</a>
+							<a class="get-real" href="#">求真相</a>
+						</div>
+					</div>
+				</div>
+				<!--话题列表-->
+				<ul class="topic-list">
+					<li><a href="#">马桶冲水时最好盖上马桶盖？</a><span>阅读(334023)</span></li>
+					<li><a href="#">坐月子不能喝水，要用米酒代替？</a><span>阅读(334023)</span></li>
+					<li><a href="#">水果分"公母",品质有差别？</a><span>阅读(334023)</span></li>
+					<li><a href="#">海水会越来越咸？</a><span>阅读(334023)</span></li>
+					<li><a href="#">一天只能吃一个鸡蛋，多了不吸收？</a><span>阅读(334023)</span></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
